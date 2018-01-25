@@ -1,0 +1,8 @@
+Copy Below Code And Paste Into "theme.liquid" above  just "</body>"  tag.
+
+{{ 'Wishlist.js' | asset_url | script_tag }}
+    <script>
+      (function() {
+        Wishlist.init();
+      }());
+    </script>
